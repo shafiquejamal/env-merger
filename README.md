@@ -1,3 +1,5 @@
+Note: this is a fork of [env-merger](https://github.com/kbravest/env-merger). The differnce is that this project gives priority to variables defined in the operating system - OS defined environment variables will NOT be overriden by variables defined in any files.
+
 No-frills merging of environment-specific configuration files into process.env. Requires node 6+.
 
 #### Usage:

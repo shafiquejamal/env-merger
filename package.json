@@ -2,17 +2,26 @@
   "name": "env-merger",
   "version": "1.0.0",
   "description": "No-frills merging of environment-specific configuration files into process.env",
-  "keywords": ["properties", "ini", "config", "configuration", "process.env", "environment", "merge", "merging"],
-  "author": "Kevin Bravestone <kcmoot@gmail.com>",
-  "repository": "git://github.com/kbravest/env-merger.git",
+  "keywords": [
+    "properties",
+    "ini",
+    "config",
+    "configuration",
+    "process.env",
+    "environment",
+    "merge",
+    "merging"
+  ],
+  "author": "Shafique Jamal <shafique.jamal@gmail.com>",
+  "repository": "git@github.com:shafiquejamal/env-merger.git",
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "properties": "1.2.1"
+    "properties": "1.2.1",
+    "ramda": "^0.26.1"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "license": "MIT",
   "main": "lib"
 }
