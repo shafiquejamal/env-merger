@@ -1,5 +1,5 @@
 {
-  "name": "env-merger",
+  "name": "processenv-priority-env-merger",
   "version": "1.0.0",
   "description": "No-frills merging of environment-specific configuration files into process.env",
   "keywords": [
