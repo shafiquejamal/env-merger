@@ -4,7 +4,7 @@ No-frills merging of environment-specific configuration files into process.env. 
 
 #### Usage:
 
-Place your environment file(s) in a directory under your project called /config.
+Place your environment file(s) in a directory under your project called `/env`.
 
 In /env/development.env:
 
@@ -52,7 +52,7 @@ default: 'env'
 Specify directory to look in for environment files.
 
 ```
-require('env-merger')({ dir: 'foobar' });
+require('processenv-priority-env-merger')({ dir: 'foobar' });
 ```
 
 **mergeProcess**
